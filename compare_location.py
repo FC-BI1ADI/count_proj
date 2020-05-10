@@ -70,4 +70,4 @@ if __name__ == '__main__':
     print("记录单地址[%s 的经度：%f 纬度：%f]" % (address1, float(jw1.split(',')[0]), float(jw1.split(',')[1])))
     print("签卡地址  [%s 的经度：%f 纬度：%f]" % (address2, float(jw2.split(',')[0]), float(jw2.split(',')[1])))
     print("系统判断两者相距：%s ,系统判断是否为同一结果：%s" % (
-    distance_2locations(address1, address2), compare_location(address1, address2, 500)))
+        distance_2locations(address1, address2), compare_location(address1, address2, 500)))
